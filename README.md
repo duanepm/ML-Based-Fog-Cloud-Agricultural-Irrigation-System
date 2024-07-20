@@ -9,22 +9,22 @@ This repository contains the implementation of a smart agricultural irrigation s
 ```Project Report```: A report detailing the system design and implementation.<br />
 
 ## Features
-Automatic Mode: Predicts irrigation needs using real-time sensor data and dynamically trained machine learning models.<br />
-Manual Mode: Allows remote control of the irrigation system via a mobile app.<br />
-Real-Time Data: Collects and processes sensor data (humidity, temperature, soil moisture) in real-time.<br />
-Cloud Integration: Uses Firebase for storing sensor data and trained models.<br />
-Fog Computing: Utilizes a Raspberry Pi for data preprocessing and local decision-making.<br />
-User-Friendly Interface: Provides an Android app for switching modes and monitoring sensor data.<br />
+```Automatic Mode```: Predicts irrigation needs using real-time sensor data and dynamically trained machine learning models.<br />
+```Manual Mode```: Allows remote control of the irrigation system via a mobile app.<br />
+```Real-Time Data```: Collects and processes sensor data (humidity, temperature, soil moisture) in real-time.<br />
+```Cloud Integration```: Uses Firebase for storing sensor data and trained models.<br />
+```Fog Computing```: Utilizes a Raspberry Pi for data preprocessing and local decision-making.<br />
+```User-Friendly Interface```: Provides an Android app for switching modes and monitoring sensor data.<br />
 
 ## Getting Started
 
 ### Prerequisites
-Arduino Uno<br />
-Raspberry Pi (Or any fog device)<br />
-Sensors (humidity, temperature, soil moisture)<br />
-Water pump<br />
-MIT App Inventor for Android app development<br />
-Firebase account<br />
+1. Arduino Uno<br />
+2. Raspberry Pi (Or any fog device)<br />
+3. Sensors (humidity, temperature, soil moisture)<br />
+4. Water pump<br />
+5. MIT App Inventor for Android app development<br />
+6. Firebase account<br />
 
 ## Installation
 
@@ -49,8 +49,8 @@ Update Firebase configuration in the app.<br />
 Build and run the app on your Android device.<br />
 
 ## Usage
-Manual Mode: Use the Android app to manually control the water pump and monitor sensor data.<br />
-Automatic Mode: The system automatically controls irrigation based on ML model predictions.<br />
+```Manual Mode```: Use the Android app to manually control the water pump and monitor sensor data.<br />
+```Automatic Mode```: The system automatically controls irrigation based on ML model predictions.<br />
 
 ## Documentation
 Refer to the Project Report that includes system design, implementation details, and results.<br />
