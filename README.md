@@ -1,35 +1,52 @@
 # ML-Based Fog-Cloud Agricultural Irrigation System
+
 This repository contains the implementation of a smart agricultural irrigation system that leverages machine learning, fog computing, and cloud services. The system aims to optimize water usage for irrigation based on real-time sensor data and dynamically trained machine learning models. It includes Arduino code, Raspberry Pi fog scripts, a Jupyter notebook for ML model training, an MIT App Inventor app .aia file, and a project report.
 
+## Table of Contents
+- [Repository Structure](#repository-structure)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [Arduino Setup](#arduino-setup)
+    - [Raspberry Pi Setup](#raspberry-pi-setup)
+    - [Firebase Setup](#firebase-setup)
+    - [Android App Setup](#android-app-setup)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+
 ## Repository Structure
-```Arduino Code/```: Contains the Arduino code for reading sensor data and controlling the water pump.<br />
-```Fog Script/```: Contains Python scripts for the Raspberry Pi, acting as a fog device.<br />
-```Neural Network Training/```: Includes Jupyter notebooks for training the machine learning models.<br />
-```Android App/```: Contains the MIT App Inventor project file (.aia) for the Android app.<br />
-```Project Report```: A report detailing the system design and implementation.<br />
+- `Arduino Code/`: Contains the Arduino code for reading sensor data and controlling the water pump.
+- `Fog Script/`: Contains Python scripts for the Raspberry Pi, acting as a fog device.
+- `Neural Network Training/`: Includes Jupyter notebooks for training the machine learning models.
+- `Android App/`: Contains the MIT App Inventor project file (.aia) for the Android app.
+- `Project Report`: A report detailing the system design and implementation.
 
 ## Features
-```Automatic Mode```: Predicts irrigation needs using real-time sensor data and dynamically trained machine learning models.<br />
-```Manual Mode```: Allows remote control of the irrigation system via a mobile app.<br />
-```Real-Time Data```: Collects and processes sensor data (humidity, temperature, soil moisture) in real-time.<br />
-```Cloud Integration```: Uses Firebase for storing sensor data and trained models.<br />
-```Fog Computing```: Utilizes a Raspberry Pi for data preprocessing and local decision-making.<br />
-```User-Friendly Interface```: Provides an Android app for switching modes and monitoring sensor data.<br />
+- **Automatic Mode**: Predicts irrigation needs using real-time sensor data and dynamically trained machine learning models.
+- **Manual Mode**: Allows remote control of the irrigation system via a mobile app.
+- **Real-Time Data**: Collects and processes sensor data (humidity, temperature, soil moisture) in real-time.
+- **Cloud Integration**: Uses Firebase for storing sensor data and trained models.
+- **Fog Computing**: Utilizes a Raspberry Pi for data preprocessing and local decision-making.
+- **User-Friendly Interface**: Provides an Android app for switching modes and monitoring sensor data.
 
 ## Getting Started
 
 ### Prerequisites
-1. Arduino Uno<br />
-2. Raspberry Pi (Or any fog device)<br />
-3. Sensors (humidity, temperature, soil moisture)<br />
-4. Water pump<br />
-5. MIT App Inventor for Android app development<br />
-6. Firebase account<br />
+1. Arduino Uno
+2. Raspberry Pi (Or any fog device)
+3. Sensors (humidity, temperature, soil moisture)
+4. Water pump
+5. MIT App Inventor for Android app development
+6. Firebase account
 
-## Installation
+### Installation
 
-### Clone the repository<br />
-```git clone https://github.com/duanepm/ML-Based-Fog-Cloud-Agricultural-Irrigation-System.git```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/duanepm/ML-Based-Fog-Cloud-Agricultural-Irrigation-System.git
+
 
 ### Arduino Setup
 Connect sensors and water pump to the Arduino.<br />
@@ -49,11 +66,11 @@ Update Firebase configuration in the app.<br />
 Build and run the app on your Android device.<br />
 
 ## Usage
-```Manual Mode```: Use the Android app to manually control the water pump and monitor sensor data.<br />
-```Automatic Mode```: The system automatically controls irrigation based on ML model predictions.<br />
+- **Manual Mode**: Use the Android app to manually control the water pump and monitor sensor data.
+- **Automatic Mode**: The system automatically controls irrigation based on ML model predictions.
 
 ## Documentation
-Refer to the Project Report that includes system design, implementation details, and results.<br />
+Refer to the `Project Report` that includes system design, implementation details, and results.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are warmly welcome.
